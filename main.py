@@ -1,6 +1,9 @@
 import pyautogui
 import time
-pyautogui.alert("Vamos abrir o Chrome")
+#alert message
+pyautogui.alert("Vamos abrir o Chrome!")
 pyautogui.PAUSE = 0.5
 
+pyautogui.press('winleft')
+pyautogui.write('chrome')
 

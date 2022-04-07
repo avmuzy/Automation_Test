@@ -25,6 +25,11 @@ def run():
     pyautogui.write('Pycharm')
     time.sleep(5)
     pyautogui.press('enter')
+    pyautogui.press('winleft')
+    pyautogui.write('Linkedin')
+    pyautogui.press('enter')
+
+
 
 
 button1 = Button(myframe, text="Run", command=run, width=15)
